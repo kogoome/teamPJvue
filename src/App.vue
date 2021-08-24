@@ -28,7 +28,7 @@ export default {
   height: 640px;
   background-color: white;
   margin: auto;
-  box-shadow: 0 0 15px 3px #bcbcbc;
+  box-shadow: 0 0 10px 2px #bcbcbc;
 }
 
 </style>
