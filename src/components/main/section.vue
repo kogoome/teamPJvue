@@ -16,7 +16,7 @@
       </figure>
       <figure>
         <img
-          src="http://img.khan.co.kr/news/2016/07/14/l_2016071501002036900161841.jpg"
+          src="https://lh3.googleusercontent.com/proxy/I6HRITxLL2aOP1f2nARs7t3J2Lwdo3zLcHRjclXtZ1nKVMIXPFrZgA2R5cz-Dhb2pW7qVbdeeaNLtLgWMq_m5Ue4njXvHnnBnH6RfLOGM2ceZyKvYUt1nuMmkwofbaOSt0_oLwsJajGpnHI-"
           alt="clojure" />
         <figcaption>clojure</figcaption>
       </figure>
@@ -153,7 +153,7 @@
       </div>
       <div
         class="content-likes"
-        style="font-weight: bold; padding-bottom: 5px">
+        style="font-weight: bold; padding-bottom: 5px;">
         530 likes
       </div>
       <div

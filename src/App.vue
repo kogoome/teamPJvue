@@ -11,7 +11,6 @@ import Nav from "~/components/main/nav"
 import Section from "./components/main/section"
 import Footer from "./components/main/footer"
 
-
 export default {
   components: {
     Nav, Section, Footer
