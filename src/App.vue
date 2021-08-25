@@ -1,19 +1,14 @@
 <template>
-  <div id="mobile">
-    <Nav />
-    <Section />
-    <Footer />
-  </div>
+  <h1>main</h1>
+  <a href="#/">home</a>
+  <a href="#/search">search</a>
+  <RouterView />
 </template>
 
 <script>
-import Nav from "~/components/main/nav"
-import Section from "./components/main/section"
-import Footer from "./components/main/footer"
 
 export default {
   components: {
-    Nav, Section, Footer
   },
   data() {
     return {}
@@ -22,13 +17,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-#mobile {
-  width: 360px;
-  height: 640px;
-  background-color: white;
-  margin: auto;
-  box-shadow: 0 0 10px 2px #bcbcbc;
-}
 
 </style>
