@@ -1,11 +1,11 @@
 <template>
   <!--메뉴-->
   <footer>
-    <i class="fi-rr-home"></i>
-    <i class="fi-rr-search"></i>
-    <i class="fi-rr-play-alt"></i>
-    <i class="fi-rr-shopping-bag"></i>
-    <i class="fi-rr-portrait"></i>
+    <a href="#/"><i class="fi-rr-home"></i></a>
+    <a href="#/search"><i class="fi-rr-search"></i></a>
+    <a href="#"><i class="fi-rr-play-alt"></i></a>
+    <a href="#"><i class="fi-rr-shopping-bag"></i></a>
+    <a href="#"><i class="fi-rr-portrait"></i></a>
   </footer>
 
   <!--Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
@@ -35,9 +35,17 @@ footer {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  i {
-    font-size: 130%;
-    padding: 13px;
+  a {
+    padding: 10px;
+    text-decoration:none;
+    color:black;
+    transition: color 0.5s;
+    &:hover {
+      color: yellowgreen;
+    }
+    i {
+      font-size: 130%;
+    }
   }
 }
 </style>

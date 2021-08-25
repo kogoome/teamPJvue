@@ -25,6 +25,7 @@ nav {
   .right {
     float: right;
     padding-left: 18px;
+    font-size: 120%;
   }
 }
 </style>

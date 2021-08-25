@@ -1,10 +1,17 @@
 <template>
-  <h1>search</h1>
+  <Section />
 </template>
 
 <script>
+import Section from "~/components/search/section"
+
 export default {
-  name: "Search"
+  components: {
+    Section,
+  },
+  data() {
+    return {}
+  }
 }
 </script>
 
