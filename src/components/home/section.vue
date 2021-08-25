@@ -215,10 +215,11 @@ section {
         height: 60px;
         margin-right: 5px;
       }
-    }
-    figcaption { //이미지 캡션
-      text-align: center;
-      color: gray;
+      figcaption { //이미지 캡션
+        text-align: center;
+        padding-right: 5px;
+        color: gray;
+      }
     }
   }
   article { //게시물
