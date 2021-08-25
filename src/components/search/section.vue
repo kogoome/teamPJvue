@@ -46,8 +46,9 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 558px;
-  //스크롤바 없에기
+  //세로 스크롤바 없에고 스크롤 활성화
   overflow-x: hidden;
+  //브라우저 맞춤 css들
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   &::-webkit-scrollbar {

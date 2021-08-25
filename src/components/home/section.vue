@@ -16,7 +16,7 @@
       </figure>
       <figure>
         <img
-          src="https://lh3.googleusercontent.com/proxy/I6HRITxLL2aOP1f2nARs7t3J2Lwdo3zLcHRjclXtZ1nKVMIXPFrZgA2R5cz-Dhb2pW7qVbdeeaNLtLgWMq_m5Ue4njXvHnnBnH6RfLOGM2ceZyKvYUt1nuMmkwofbaOSt0_oLwsJajGpnHI-"
+          src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2020/02/urbanbrush-20200211141401425142.jpg"
           alt="clojure" />
         <figcaption>clojure</figcaption>
       </figure>
