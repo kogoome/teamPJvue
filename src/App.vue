@@ -1,18 +1,16 @@
 <template>
   <div id="mobile">
-    <Nav />
     <RouterView />
     <Footer />
   </div>
 </template>
 
 <script>
-import Nav from "~/components/nav"
 import Footer from "./components/footer"
 
 export default {
   components: {
-    Nav, Footer
+    Footer
   },
   data() {
     return {}

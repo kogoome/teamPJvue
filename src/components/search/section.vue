@@ -6,36 +6,29 @@
         placeholder="검색" />
       <i class="fi-rr-marker"></i>
     </header>
-    <hr />
+
     <article>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <div style="display: inline-block; width: 112px; height:118px; background-color: black;"></div>
-      <br />
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
+      <div style="display: inline-block; width: 118px; height:118px; background-color: black;"></div>
     </article>
   </section>
 </template>
@@ -50,17 +43,20 @@ export default {
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 section {
-  padding: 10px;
-  height: 520px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 558px;
   //스크롤바 없에기
-  white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   &::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera*/
   }
   header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 12px;
     height:30px;
     input {
       width:290px;
@@ -77,12 +73,13 @@ section {
       }
     }
     i {
-      padding-top: 6px;
+      padding-top: 4px;
       float: right;
       font-size: 130% ;
     }
   }
   article {
+    width:360px;
     div{
       margin: 1px;
     }
